@@ -1,0 +1,15 @@
+[Алгоритм](https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC "Алгоритм") маршрутизации RIP ([алгоритм Беллмана — Форда](https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%91%D0%B5%D0%BB%D0%BB%D0%BC%D0%B0%D0%BD%D0%B0-%D0%A4%D0%BE%D1%80%D0%B4%D0%B0 "Алгоритм Беллмана-Форда")) был впервые разработан в [1969 году](https://ru.wikipedia.org/wiki/1969_%D0%B3%D0%BE%D0%B4 "1969 год"), как основной для сети [ARPANET](https://ru.wikipedia.org/wiki/ARPANET "ARPANET").
+
+Прототип протокола RIP — [Gateway Information Protocol](https://ru.wikipedia.org/w/index.php?title=Gateway_Information_Protocol&action=edit&redlink=1 "Gateway Information Protocol (страница отсутствует)"), часть пакета [PARC Universal Packet](https://ru.wikipedia.org/wiki/PARC_Universal_Packet "PARC Universal Packet").
+
+Версия RIP, которая поддерживает [IP](https://ru.wikipedia.org/wiki/IP "IP") была включена в пакет [BSD](https://ru.wikipedia.org/wiki/BSD "BSD") операционной системы [Unix](https://ru.wikipedia.org/wiki/Unix "Unix") под названием _routed_ (route daemon), а также многими производителями, реализовавшими свою версию этого протокола. В итоге протокол был унифицирован в документе [RFC 1058](https://tools.ietf.org/html/rfc1058).
+
+В [1994 году](https://ru.wikipedia.org/wiki/1994_%D0%B3%D0%BE%D0%B4 "1994 год") был разработан протокол RIP-2 ([RFC 2453](https://tools.ietf.org/html/rfc2453)), который является расширением протокола RIP, обеспечивающим передачу дополнительной маршрутной информации в сообщениях RIP и повышающим уровень безопасности.
+
+Для работы в среде [IPv6](https://ru.wikipedia.org/wiki/IPv6 "IPv6") была разработана версия **RIPng**.
+
+## Техническая информация
+
+RIP — так называемый протокол [дистанционно-векторной маршрутизации](https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F "Дистанционно-векторная маршрутизация"), который оперирует [транзитными участками](https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D0%BD%D0%B7%D0%B8%D1%82%D0%BD%D1%8B%D0%B9_%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BE%D0%BA "Транзитный участок") (хоп, _hop_) в качестве метрики маршрутизации. Максимальное количество транзитных участков, разрешенное в RIP — 15 (метрика 16 означает «бесконечно большую метрику»). Каждый RIP-маршрутизатор по умолчанию вещает в сеть свою полную таблицу маршрутизации раз в 30 секунд, довольно сильно нагружая низкоскоростные линии связи. RIP работает в сетях [TCP/IP](https://ru.wikipedia.org/wiki/TCP/IP "TCP/IP"), используя [UDP](https://ru.wikipedia.org/wiki/UDP "UDP") порт 520.
+
+В современных сетевых средах RIP — не самое лучшее решение для выбора в качестве протокола маршрутизации, так как его возможности уступают более современным протоколам, таким как [EIGRP](https://ru.wikipedia.org/wiki/EIGRP "EIGRP"), [OSPF](https://ru.wikipedia.org/wiki/OSPF "OSPF"). Ограничение на 15 транзитных участков не дает применять его в больших сетях. Преимущество этого протокола — простота конфигурирования.
