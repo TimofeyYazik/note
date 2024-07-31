@@ -1,9 +1,9 @@
 #### Levels OSI:
-* 1. **Physical layer 
+* 1. **Physical layer** 
 * 2. **Data link layer** [[2_devices]] [[2_protocols]]
 * 3. **Network layer** [[3_devices]] [[3_protocols]]
 * 4. **Transport layer** [[4_protocols]]
-* 5. **Session layer
+* 5. **Session layer**
 * 6. **Presentation layer**
 * 7. **Application layer** [[7_protocols]]
 #### Physical layer (Физический уровень)
