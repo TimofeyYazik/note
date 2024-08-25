@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network/L3/IGP.md",
+                "file": "lang-c/proccess_thread/proccess.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93ac0d9ba5920762",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lang-c/proccess_thread/thread.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "network/L3/IGP.md",
+                "file": "lang-c/proccess_thread/thread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "network/L3/IGP.md",
+                "file": "lang-c/proccess_thread/thread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "network/L3/IGP.md"
+                "file": "lang-c/proccess_thread/thread.md"
               }
             }
           }
@@ -159,44 +171,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1446dc8952db59e9",
+  "active": "93ac0d9ba5920762",
   "lastOpenFiles": [
-    "network/L3/IGMP.md",
-    "network/L3/ICMP.md",
-    "network/L2/2_devices.md",
-    "network/model OSI (Open Systems Interconnection).md",
-    "C/data_struct_algoritms/алгоритмы.md",
-    "network/L3/IP.md",
-    "network/L4/TCP.md",
+    "lang-c/sockets/socket.md",
+    "lang-c/virtual_memory/vm.md",
+    "lang-c/dynamic_lib/DL.md",
+    "lang-c/virual_file_system/vfs.md",
+    "lang-c/c-struct.md",
+    "lang-c/proccess_thread/thread.md",
+    "lang-c/dynamic_lib",
+    "lang-c/proccess_thread/proccess.md",
+    "lang-c/IPC/ipc.md",
+    "network/L7/BGP.md",
+    "network/L7/DHCP.md",
+    "network/L7/SSH.md",
+    "network/L7/HTTP.md",
+    "network/L7/DNS.md",
     "network/L4/DCCP.md",
-    "network/L4/4_protocols.md",
     "network/L4/RSVP.md",
     "network/L4/SCTP.md",
-    "gamedev",
-    "network/L2/2_protocols.md",
-    "network/L3/3_protocols.md",
-    "network/L2/ARP.md",
-    "network/L3/3_devices.md",
-    "C/data_struct_algoritms/структуры.md",
-    "math",
-    "C/c-struct.md",
+    "network/L4/UDP.md",
+    "network/L4/TCP.md",
+    "network/L3/RIP.md",
+    "network/L3/OSPF.md",
+    "network/L3/NAT.md",
     "network/L3/IGP.md",
-    "C/sockets/socket.md",
-    "network/L2/Untitled.md",
-    "C/virtual_memory/vm.md",
-    "C/sockets",
-    "C/data_struct_algoritms/асимптотика.md",
-    "C/data_struct_algoritms",
-    "C/virual_file_system/vfs.md",
-    "C/IPC/ipc.md",
-    "C/proccess_thread/thread.md",
-    "C/proccess_thread/proccess.md",
-    "C/virtual_memory",
-    "C/c_base",
-    "C/proccess_thread",
-    "C/IPC",
-    "C/virual_file_system",
-    "C",
+    "network/L3/IGMP.md",
+    "network/L3/ICMP.md",
+    "network/L3/IP.md",
+    "network/L3/3_protocols.md",
+    "gamedev/programming",
+    "gamedev/art_direction",
+    "gamedev/game_design",
+    "gamedev/level_design",
+    "algo",
+    "gamedev",
+    "math",
+    "lang-c/sockets",
+    "lang-c/data_struct_algoritms",
     "Untitled.canvas"
   ]
 }
